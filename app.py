@@ -18,7 +18,6 @@ def calculator(command):
         sys.exit(0)
 
 
-
 layout = [
     [sg.Multiline("", size=(17, 3), key="-display-", justification="r", font="digit 20", no_scrollbar=True)],
     [sg.Button("clear", size=(5,3)), sg.Button("(", size=(5,3)), sg.Button(")", size=(5,3)), sg.Button("/", size=(5,3))],
@@ -48,14 +47,11 @@ while True:
         display = calculator(command)
 
     if event == "%":
-        
-
         expressao_matematica = values["-display-"]
         resultado = re.search(r"\d+\s*$", expressao_matematica)
         if resultado:
             agrupamento_numerico = resultado.group()
             display = display.replace(agrupamento_numerico, str(int(agrupamento_numerico)/100))
-
 
 
     window["-display-"].update(display)
