@@ -12,7 +12,7 @@ def calculator(command):
             return str(result)
         
         else:
-            return result
+            return str(result)
     except Exception as e:
         return str("Err...")
         sys.exit(0)
