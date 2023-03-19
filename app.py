@@ -28,7 +28,7 @@ layout = [
     [sg.Button("0", size=(5,3)), sg.Button(".", size=(5,3)), sg.Button("%", size=(5,3)), sg.Button("=", size=(5,3))]
 ]
 
-window = sg.Window("CALCULADOR", layout=layout, element_justification="center")
+window = sg.Window("CALCULADORA", layout=layout, element_justification="center")
 
 while True:
     
