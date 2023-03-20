@@ -9,4 +9,4 @@
 [https://youtu.be/Gy-Bw6jY6a0](https://youtu.be/Gy-Bw6jY6a0)
 
 ## Não esqueça da gente
-Esta calculadora foi criada por [https://github.com/elizeubarbosaabreu](Elizeu barbosa Abreu)
+Esta calculadora foi criada por [Elizeu barbosa Abreu](https://github.com/elizeubarbosaabreu)
